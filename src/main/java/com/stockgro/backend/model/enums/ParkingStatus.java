@@ -1,2 +1,7 @@
-package com.stockgro.backend.model.enums;public class ParkingStatus {
+package com.stockgro.backend.model.enums;
+
+public enum ParkingStatus {
+
+    OCCUPIED,
+    FREE;
 }

@@ -1,0 +1,5 @@
+
+
+parking-lot-config:
+  capacity: 5
+  type: SEQUENCE

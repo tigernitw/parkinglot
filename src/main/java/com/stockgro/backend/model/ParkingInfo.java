@@ -1,2 +1,56 @@
-package com.stockgro.backend.model;public class ParkingInfo {
+package com.stockgro.backend.model;
+
+import com.stockgro.backend.model.vehicle.Vehicle;
+
+public class ParkingInfo {
+
+    private int id;
+
+    private Vehicle vehicle;
+
+    private int parkingSpotNumber;
+
+    private long parkingStartTime;
+
+    private long getParkingEndTime;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Vehicle getVehicle() {
+        return vehicle;
+    }
+
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
+    }
+
+    public int getParkingSpotNumber() {
+        return parkingSpotNumber;
+    }
+
+    public void setParkingSpotNumber(int parkingSpotNumber) {
+        this.parkingSpotNumber = parkingSpotNumber;
+    }
+
+    public long getParkingStartTime() {
+        return parkingStartTime;
+    }
+
+    public void setParkingStartTime(long parkingStartTime) {
+        this.parkingStartTime = parkingStartTime;
+    }
+
+    public long getGetParkingEndTime() {
+        return getParkingEndTime;
+    }
+
+    public void setGetParkingEndTime(long getParkingEndTime) {
+        this.getParkingEndTime = getParkingEndTime;
+    }
 }
